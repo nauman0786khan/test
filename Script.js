@@ -28,7 +28,7 @@ function showPosition(position) {
  function sendEmail(latitude, longitude) {
     // Simulating an AJAX request to a server-side endpoint
     var xhr = new XMLHttpRequest();
-    var url = 'https://your-server.com/sendEmail'; // Replace this with your server-side endpoint URL
+    var url = 'https://vercel.com/nauman-khans-projects/test/sendEmail'; // Replace this with your server-side endpoint URL
     var params = 'latitude=' + latitude + '&longitude=' + longitude + '&to=nauma.khan@adaan.com';
     xhr.open('POST', url, true);
     xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
